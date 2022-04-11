@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  base:
+    image: somkiat/hadoop-base
+    build: 
+      context: ./base
+      
+  namenode:
+    image: somkiat/hadoop-namenode
+    build: 
+      context: ./namenode
+
+  datanode:
+    image: somkiat/hadoop-namenode
+    build: 
+      context: ./datanode
