@@ -33,7 +33,7 @@ $docker-compose -f docker-compose-deploy.yml ps
 
   Name            Command              State                           Ports
 -------------------------------------------------------------------------------------------------
-datanode   /entrypoint.sh /run.sh   Up (healthy)   9870/tcp
+datanode   /entrypoint.sh /run.sh   Up (healthy)   9864/tcp
 namenode   /entrypoint.sh /run.sh   Up (healthy)   0.0.0.0:9000->9000/tcp, 0.0.0.0:9870->9870/tc
 ```
 
