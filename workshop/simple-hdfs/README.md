@@ -37,7 +37,7 @@ datanode   /entrypoint.sh /run.sh   Up (healthy)   9870/tcp
 namenode   /entrypoint.sh /run.sh   Up (healthy)   0.0.0.0:9000->9000/tcp, 0.0.0.0:9870->9870/tc
 ```
 
-## 5. Run testing app :: Example app
+## 5. Run testing app :: [Example app Wordcount](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0)
 * [Download JAR file](https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-examples/3.3.2/hadoop-mapreduce-examples-3.3.2.jar)
 
 Copy jar file to Namenode to run test job
