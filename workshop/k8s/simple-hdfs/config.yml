@@ -3,6 +3,7 @@ kind: ConfigMap
 metadata:
   name: hdfs-config
 data:
+  CLUSTER_NAME: demo_01
   HDFS-SITE.XML_dfs.namenode.name.dir: /data/namenode
   HDFS-SITE.XML_dfs.datanode.data.dir: /data/datanode
   LOG4J.PROPERTIES_log4j.rootLogger: INFO, stdout
