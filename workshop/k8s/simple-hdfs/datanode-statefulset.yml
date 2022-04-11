@@ -4,7 +4,7 @@ metadata:
   name: hdfs-datanode
 spec:
   serviceName: hdfs-datanode
-  replicas: 3
+  replicas: 1
   updateStrategy:
     type: RollingUpdate
   selector:
