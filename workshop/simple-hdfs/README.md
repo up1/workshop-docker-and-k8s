@@ -76,12 +76,13 @@ See success result
 Found 2 items
 -rw-r--r--   3 root supergroup          0 2022-04-11 15:45 /user/root/output/_SUCCESS
 -rw-r--r--   3 root supergroup         24 2022-04-11 15:45 /user/root/output/part-r-00000
-```
+
 
 /# hdfs dfs -cat /user/root/output/part-r-00000
 line1	1
 line2	1
 line3	1
+```
 
 ## 6. Delete all
 ```
